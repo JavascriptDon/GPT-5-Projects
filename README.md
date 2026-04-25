@@ -35,3 +35,5 @@ Create a single-page app in a single HTML file with the following requirements:
 - The characters should look cartoonish and be fun to watch.
 - The game should be enjoyable for everyone.
 ```
+
+<img width="496" height="341" alt="image" src="https://github.com/user-attachments/assets/bd6c6fa4-fede-4d71-a222-9254e5ee6170" />

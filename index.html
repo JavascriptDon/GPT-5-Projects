@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Kanban</title>
+    <description>A simple Kanban board implementation</description>
+    <link href="./src/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+    <script type="module" src="./src/main.js"></script>
+  </head>
+  <body>
+ <header>
+  <span>Mini Kanban</span>
+
+  <div class="right">
+    <span class="search-icon">🔍</span>
+    <input id="search" placeholder="Search..." class="search-input"/>
+  </div>
+</header>
+
+  <div class="controls">
+    <input id="task" placeholder="Task..." />
+    <textarea id="description" placeholder="Description..."></textarea>
+    <input id="assignee" placeholder="Assignee" />
+    <select id="priority">
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+    </select>
+    <button onclick="addTask()" class="btn-add">Add</button>
+  </div>
+
+  <div class="board">
+    <div class="column" data-col="todo">
+      <h2>Todo</h2>
+      <div class="wip">WIP: <input type="number" value="5" /></div>
+      <div class="list" id="todo"></div>
+    </div>
+    <div class="column" data-col="doing">
+      <h2>Doing</h2>
+      <div class="wip">WIP: <input type="number" value="3" /></div>
+      <div class="list" id="doing"></div>
+    </div>
+    <div class="column" data-col="done">
+      <h2>Done</h2>
+      <div class="wip">WIP: <input type="number" value="999" /></div>
+      <div class="list" id="done"></div>
+    </div>
+  </div>
+      <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

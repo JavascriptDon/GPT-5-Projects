@@ -18,7 +18,7 @@ Create a single-page app in a single HTML file with the following requirements:
 
 ```
 
-https://github.com/user-attachments/assets/3ffd596c-eb71-4e3f-81ee-e04292353c82
+https://github.com/user-attachments/assets/d68f8633-ed5a-4872-a819-9dc2a365f4a1
 
 ## Fun-Bonk
 

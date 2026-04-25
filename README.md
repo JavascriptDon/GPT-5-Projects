@@ -36,6 +36,5 @@ Create a single-page app in a single HTML file with the following requirements:
 - The game should be enjoyable for everyone.
 ```
 
-https://github.com/user-attachments/assets/8f58b5d4-30e2-44fc-8cb5-bf6838905691
-
+https://github.com/user-attachments/assets/cf346afc-dd90-4dae-9420-d40202adb213
 

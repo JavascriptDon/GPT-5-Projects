@@ -36,4 +36,4 @@ Create a single-page app in a single HTML file with the following requirements:
 - The game should be enjoyable for everyone.
 ```
 
-<img width="496" height="341" alt="image" src="https://github.com/user-attachments/assets/bd6c6fa4-fede-4d71-a222-9254e5ee6170" />
+<img width="260" height="171" alt="fun-bonk" src="https://github.com/user-attachments/assets/728ae136-e92a-42ae-a003-5944a4ccb793" />
